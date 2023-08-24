@@ -17,12 +17,13 @@ ul{
 	padding:10px;
 	width:50%;
 }
+.list li:nth-child(odd){
+	background-color:white;
+}
+
 .list li:first-child,li:last-child{
 	font-size:22px;
 }
 .list li:nth-last-child(3){
 	background-color:pink;
-}
-.list li:nth-child(odd){
-	background-color:white;
 }
